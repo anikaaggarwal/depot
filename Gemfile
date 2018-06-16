@@ -13,7 +13,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-gem 'pg' '~> 0.20'
+gem 'pg', '~> 0.20'
 group :production do
   gem 'pg'
 end
